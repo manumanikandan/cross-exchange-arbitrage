@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+notebooks/arbitrage_analysis.ipynb
+
+# Data files (large binary files - 32MB each)
+*.parquet
+*.parquet.cpgz
+*.h5
+*.hdf5
+
+# Generated figures (can be regenerated - 164 PNG files)
+results/figures/
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Temporary files
+~$*
+*.tmp
+*.swp
+*.swo
+*~
+
+# Office documents (can be regenerated from source)
+*.docx
+*.xlsx
+*.pptx
+
+# Generated reports (can be regenerated)
+*.pdf
+*.html
+
+# Utility/test scripts (not core functionality)
+clean_notebook.py
+convert_markdown_to_pdf.py
+extract_parquet.py
+test_fixes.py
+convert_to_pdf.md
+notebook_cell_review.md
+
+# Extra documentation (keep only README)
+BUGFIXES*.md
+COST_MODEL_EXPLANATION.md
+EXCHANGE_RELATIONSHIP_ANALYSIS.md
+FINDINGS_SUMMARY.md
+NEGATIVE_PNL_EXPLANATION.md
+PROJECT_GUIDE.md
+STRATEGY_DESCRIPTION.md
+STRATEGY_DOCUMENTATION.md
+ARBITRAGE_ANALYSIS_REPORT.md
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+*.key
+*.secret
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
