@@ -50,8 +50,9 @@ results/figures/
 *.pptx
 
 # Generated reports (can be regenerated)
-*.pdf
 *.html
+# Allow the main analysis report PDF
+!ARBITRAGE_ANALYSIS_REPORT.pdf
 
 # Utility/test scripts (not core functionality)
 clean_notebook.py
